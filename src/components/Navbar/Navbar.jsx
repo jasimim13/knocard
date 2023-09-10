@@ -4,14 +4,14 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Box } from "@mui/material";
-import { DiCssdeck } from "react-icons/di";
+import Nav from "../../assets/NavLogo.jpeg"
 import { RiStarSFill } from "react-icons/ri";
 
 export const Navbar = () => {
   return (
-    <AppBar sx={{ backgroundColor: "#005580"}}>
+    <AppBar position="relative"  sx={{ backgroundColor: "#005580" }}>
       <Toolbar>
-        <DiCssdeck size="2rem" style={{ marginRight: "10px" }} />
+        <img src={Nav} alt="NavPic" height="50px" width="50px" style={{marginRight: "10px"}} />
 
         <Box
           sx={{
@@ -19,7 +19,7 @@ export const Navbar = () => {
           }}
         >
           <Typography variant="body2">KnoCard</Typography>
-          <Typography variant="subtitle2">
+          <Typography variant="caption" sx={{fontSize: "10px"}} >
             Your all in one business platform
           </Typography>
           <div style={{ display: "flex", flexDirection: "row" }}>
