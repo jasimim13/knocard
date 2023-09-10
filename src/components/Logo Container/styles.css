@@ -1,7 +1,7 @@
 .name-container {
-  width: 35%;
-  height: 40px;
-  margin-left: 400px;
+  width: 16%;
+  height: 38px;
+  left: 39.8%;
   margin-top: 70px;
   border-radius: 50px;
   background-color: white;
@@ -9,25 +9,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: absolute;
 }
 
 .overlay-container {
   position: absolute;
   margin-top: 10px;
   top: 23%;
-  left: 50%;
-  width: 15%;
+  left: 48%;
+  width: 11%;
   transform: translate(-50%, -50%);
   background-color: rgb(8, 138, 198);
   padding: 10px;
-  border-radius: 20px;
-  border-bottom-left-radius: 1px;
-  border-bottom-right-radius: 1px;
+  border-radius: 70px 70px 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 2;
 }
-
-
